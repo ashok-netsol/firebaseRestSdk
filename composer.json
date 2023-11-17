@@ -1,0 +1,21 @@
+{
+    "name": "ashok-netsol/firebase-guzzle-auth-sdk",
+    "type": "library",
+    "description": "Firebase Authentication SDK for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashok kumar ",
+            "email": "ashok.kumar.1@netsolutions.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FirebaseAuth\\": "FirebaseAuth/"
+        }
+    }
+}
