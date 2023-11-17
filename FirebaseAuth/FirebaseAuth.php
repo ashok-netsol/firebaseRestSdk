@@ -5,7 +5,7 @@ namespace FirebaseAuth;
 
 use GuzzleHttp\Client;
 
-class FirebaseAuthSDK 
+class FirebaseAuthSDK  
 {
     private static $baseUrl = 'https://identitytoolkit.googleapis.com/v1/';
     private static $apiKey;
